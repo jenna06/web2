@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <h1>object</h1>
+    <h2>Create</h2>
+   <script>
+     var coworkers = {
+       "programmer":"tc",
+       "designer":"jl"
+     };
+     document.write("programmer: "+coworkers.programmer+"<br>");
+     document.write("designer : "+coworkers.designer+"<br>");
+     coworkers.screenplay = "th";
+     document.write("screenplay" : +coworkers.screenplay+"<br>");
+     coworkers["casting director"] = "jg"
+     document.write("casting director : "+coworkers["casting director"]+"<br>");
+   </script>
+  </body>
+</html>
